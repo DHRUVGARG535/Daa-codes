@@ -1,11 +1,12 @@
 #include <stdio.h>
+#define max 100
 int linear(int[],int);
 int main() {
     int n,i;
     printf("Enter size of array : ");
     scanf("%d",&n);
 
-    int arr[n];
+    int arr[max];
     
     for(i=0;i<n;i++){
         printf("Enter element number %d : ",i+1);
