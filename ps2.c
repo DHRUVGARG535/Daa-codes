@@ -18,7 +18,7 @@ int main() {
 }
 
 int binary(int arr[],int n){
-    int key,i,st=0;
+    int key,st=0;
     int end = n-1;
     printf("Enter key : ");
     scanf("%d",&key);
